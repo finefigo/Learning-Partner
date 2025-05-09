@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Semi-transparent background for crystal effect -->
+    <solid android:color="#66FFFFFF"/>  <!-- 40% transparent white -->
+
+    <!-- Light border for a glass effect -->
+    <stroke android:width="2dp" android:color="#8FDC93"/>
+
+    <!-- Soft rounded corners -->
+    <corners android:radius="16dp"/>
+
+    <!-- Inner padding for better look -->
+    <padding android:left="10dp"
+        android:right="10dp"
+        android:top="5dp"
+        android:bottom="5dp"/>
+</shape>
